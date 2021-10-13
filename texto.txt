@@ -1,0 +1,62 @@
+--- CABEÇALHO ---
+
+Logo + Nome
+
+Início
+Sobre
+Tecnologias
+Portfolio
+Contato
+
+--- CHAMADA ---
+
+Soluções tecnológicas
+
+Espaço destinado para me apresentar como profissional de desenvolvimento de softwares, compartilhando minha formação, tecnologias aprendidas, e criações feitas.
+
+---SOBRE---
+
+Foto de João Pedro Lopes Guimarães
+
+Meu nome é João Pedro Lopes Guimarães, sou graduando em Bacharelado em Sistemas de Informação pelo Centro Universitário Geraldo di Biase (UGB), e também formado em Técnico em Informática integrado ao Ensino Médio pelo Instituto Federal do Rio de Janeiro - Campus Pinheiral (IFRJ). Iniciei minha jornada em informática visando a manutenção de computadores, contudo, ao primeiro contato com programação, foi amor a primeira vista. Sempre busco explorar novas tecnologias para me aprimorar como profissional e como o eterno estudante que sou
+
+Imagem - Logo UGB
+Centro Universitário Geraldo Di Biase
+Bacharelado em Sistemas de Informação
+
+Imagem - Logo IFRJ
+Instituto Federal do Rio de Janeiro - Campus Pinheiral
+Técnico em Informática integrado ao Ensino Médio
+
+---TECNOLOGIAS---
+
+Front-End
+HTML - Iniciante
+CSS - Iniciante
+JavaScript - Iniciante
+
+Back-End
+C# - Iniciante
+Python - Iniciante
+
+Banco de Dados
+SQL Server - Iniciante
+
+Game Engine
+Unity - Iniciante
+
+---PORTFOLIO---
+
+Cinema UGB
+
+Barbearia Alura
+
+Apeperia
+
+
+--- CONTATO ---
+
+Instagram
+LinkedIn
+GitHub
+Email
