@@ -1,15 +1,8 @@
 * {
   --branco: #fff;
-  --azul-claro: #dfe3e5;
+  --preto: #000;
   --vermelho-forte: #c80003;
-  --cinza-escuro: #4f4c4c;
-  --cinza-claro: #f7f4f4;
-  --cinza-medio: #d9d9d9;
   --verde-claro: #a6c64c;
-
-  --planos-cartao-start: #56ccf2;
-  --planos-cartao-ultra: #b04cd9;
-  --planos-cartao-mega: #e33b3b;
 
   --montserrat: 'Montserrat', sans-serif;
   --lato: 'Lato', sans-serif;
@@ -28,6 +21,7 @@ body {
 }
 
 header {
+  position: relative;
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
@@ -75,4 +69,39 @@ header a {
 .subTitulo {
   font-size: 15px !important;
   text-transform: none !important;
+}
+
+.chamada {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: var(--preto);
+  text-align: center;
+
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.chamada h1 {
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.sobre {
+  padding: 3em 0;
+  background: #fefefe;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.sobreFoto {
+  width: 150px;
+  float: left;
+  margin: 0 20px 20px 0;
+  border-radius: 100%;
+}
+
+.sobre p {
+  text-align: left;
 }
