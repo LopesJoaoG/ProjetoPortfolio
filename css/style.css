@@ -20,56 +20,47 @@ body {
   padding-right: 16vw;
 }
 
+/* Cabeçalho */
+
 header {
-  position: relative;
-  padding: 20px 0;
-  display: flex;
-  justify-content: space-between;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 
-  color: var(--vermelho-forte);
   background-color: var(--verde-claro);
+  color: var(--vermelho-forte);
   font-family: var(--montserrat);
-}
 
-header a {
-  line-height: 1;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-.navbar ul {
-  display: flex;
-  list-style: none;
-  align-items: center;
-}
-
-.navbar li {
-  position: relative;
-  list-style-type: none;
-  padding-left: 0.75rem;
-}
-
-.navbar li a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 10px 10px 10px;
-  font-size: 14px;
-  font-weight: bold;
 }
 
-.containerTitulo {
-  width: 100%;
+header nav ul {
+  display: flex;
+}
+
+header nav li {
+  margin-left: 10px;
+}
+
+header nav a {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+
+  margin-right: 0.7rem;
+  margin-bottom: 1.25rem;
+  margin-left: 0.7rem;
 }
 
 .mainTitulo {
-  font-size: 25px !important;
+  font-size: 2rem;
 }
 
 .subTitulo {
-  font-size: 15px !important;
-  text-transform: none !important;
+  font-size: 1.25rem;
 }
+
+/* Chamada */
 
 .chamada {
   display: flex;
@@ -88,11 +79,17 @@ header a {
   padding-bottom: 0.5rem;
 }
 
+/* Sobre */
+
 .sobre {
   padding: 3em 0;
   background: #fefefe;
-  width: 75%;
+  width: 98%;
   margin: 0 auto;
+}
+
+.sobre p {
+  vertical-align: center;
 }
 
 .sobreFoto {
@@ -104,4 +101,62 @@ header a {
 
 .sobre p {
   text-align: left;
+}
+
+/* Formação */
+
+.formacao ul {
+  width: 98%;
+  font-weight: bold;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.formacaoColegio {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 8rem;
+  width: 45%;
+  border: 2px solid var(--verde-claro);
+  border-radius: 15px;
+
+  padding: 10px;
+  margin-bottom: 1%;
+}
+
+.formacaoColegio:nth-child(2n) {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.formacaoLogo {
+  width: 6rem;
+}
+
+.containerFormacao {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1%;
+}
+
+.containerFormacao:nth-child(2n) {
+  padding-right: 1%;
+}
+
+.formacaoColegio:nth-child(2n) .formacaoLogo {
+  float: right;
+}
+
+.formacaoColegio:nth-child(2n + 1) .formacaoLogo {
+  float: left;
+}
+
+.formacaoColegio:nth-child(2n) p {
+  text-align: right;
 }
