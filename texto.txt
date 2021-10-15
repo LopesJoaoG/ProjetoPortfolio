@@ -30,28 +30,16 @@ Técnico em Informática integrado ao Ensino Médio
 
 ---TECNOLOGIAS---
 
-Front-End
-HTML - Iniciante
-CSS - Iniciante
+HTML - Intermediário
+CSS - Intermediário
 JavaScript - Iniciante
 
-Back-End
 C# - Iniciante
 Python - Iniciante
+Golang - Iniciante
 
-Banco de Dados
 SQL Server - Iniciante
-
-Game Engine
-Unity - Iniciante
-
----PORTFOLIO---
-
-Cinema UGB
-
-Barbearia Alura
-
-Apeperia
+GitHub - Iniciante
 
 
 --- CONTATO ---

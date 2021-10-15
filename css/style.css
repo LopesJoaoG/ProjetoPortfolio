@@ -3,6 +3,7 @@
   --preto: #000;
   --vermelho-forte: #c80003;
   --verde-claro: #a6c64c;
+  --gelo: #eee;
 
   --montserrat: 'Montserrat', sans-serif;
   --lato: 'Lato', sans-serif;
@@ -13,18 +14,19 @@
 
 body {
   font-family: var(--lato);
+  background-color: var(--gelo);
 }
 
 .container {
-  padding-left: 16vw;
-  padding-right: 16vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 /* Cabeçalho */
 
 header {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
 
   background-color: var(--verde-claro);
   color: var(--vermelho-forte);
@@ -39,30 +41,28 @@ header nav ul {
   display: flex;
 }
 
-header nav li {
-  margin-left: 10px;
-}
-
 header nav a {
   text-transform: uppercase;
-  font-size: 1.1rem;
+  font-size: 1rem;
 
-  margin-right: 0.7rem;
+  margin-right: 0.75rem;
   margin-bottom: 1.25rem;
-  margin-left: 0.7rem;
+  margin-left: 0.75rem;
 }
 
 .mainTitulo {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  text-align: left;
 }
 
 .subTitulo {
-  font-size: 1.25rem;
+  font-size: 1rem;
+  text-align: left;
 }
 
 /* Chamada */
 
-.chamada {
+#chamada {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -72,9 +72,13 @@ header nav a {
 
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+
+  border-bottom: 1px solid var(--verde-claro);
+
+  margin-bottom: 2.5rem;
 }
 
-.chamada h1 {
+#chamada h1 {
   font-size: 2rem;
   padding-bottom: 0.5rem;
 }
@@ -82,14 +86,11 @@ header nav a {
 /* Sobre */
 
 .sobre {
+  align-items: center;
   padding: 3em 0;
   background: #fefefe;
   width: 98%;
   margin: 0 auto;
-}
-
-.sobre p {
-  vertical-align: center;
 }
 
 .sobreFoto {
@@ -106,7 +107,7 @@ header nav a {
 /* Formação */
 
 .formacao ul {
-  width: 98%;
+  width: 100%;
   font-weight: bold;
 
   display: flex;
@@ -139,24 +140,112 @@ header nav a {
   width: 6rem;
 }
 
-.containerFormacao {
+.containerFormacaoEsquerda {
   display: flex;
   flex-direction: column;
-  margin-left: 1%;
+  margin-left: 2%;
 }
 
-.containerFormacao:nth-child(2n) {
-  padding-right: 1%;
-}
-
-.formacaoColegio:nth-child(2n) .formacaoLogo {
-  float: right;
-}
-
-.formacaoColegio:nth-child(2n + 1) .formacaoLogo {
-  float: left;
+.containerFormacaoDireita {
+  margin-right: 2%;
 }
 
 .formacaoColegio:nth-child(2n) p {
   text-align: right;
+}
+
+/* Tecnologias */
+
+#tecnologias {
+  background: var(--verde-claro);
+}
+
+.tecnologiaLista {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 1%;
+}
+
+.tecnologiaItem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 3px 3px 10px rgb(112, 165, 5);
+
+  height: 8rem;
+  width: 45%;
+  margin: 1%;
+}
+
+.tecnologiaItem:nth-child(2n) {
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+.tecnologiaLogo {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  width: 5rem;
+}
+
+.containerTecnologia {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  color: var(--vermelho-forte);
+
+  align-items: flex-start;
+}
+
+.containerTecnologia:nth-child(2n + 1) {
+  align-items: flex-end;
+}
+
+.containerTecnologia:nth-child(2n + 1) p {
+  text-align: right;
+}
+
+.containerTecnologia h2 {
+  font-size: 2rem;
+}
+
+/* Contato */
+
+footer {
+  padding: 2% 0;
+  color: var(--vermelho-forte);
+}
+
+footer h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contatoFlex {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#contato {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 5%;
+}
+
+#contato li {
+  width: 20%;
+}
+
+footer #contato a .redesSociaisLogo {
+  width: 2rem;
+  vertical-align: center;
 }
